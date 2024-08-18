@@ -1,0 +1,58 @@
+
+
+#store{
+width:100%;
+height:auto;
+
+}
+#imageContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+  
+}
+
+#name{
+    font-size: 200px;
+    font-style: italic;
+    position: absolute; 
+    top: 10%;
+    left: 35%; 
+    color: black;
+    background-color: white;
+}
+
+#description{
+    font-size: 60px;
+    font-style: italic;
+    position: absolute; 
+    top: 30%;
+    left: 38%; 
+    color:black;
+    background-color: white;
+}
+
+
+#discounts{
+    background-color:black;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+   padding-bottom: 60px;
+}
+
+#discountsHeader{
+    font-size: 70px;
+    color: white
+}
+
+#discountsContainer{
+    background-color: black;
+    
+}
+
+h3{
+    color:white;
+    font-size: 50px;
+}

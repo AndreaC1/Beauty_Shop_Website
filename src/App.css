@@ -1,0 +1,36 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav>ul {
+
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: right;
+  padding: 10px;
+  background-color: black;
+  
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  right: 100px;
+
+}
+
+body {
+  background-color: rgb(243, 222, 226);
+}
